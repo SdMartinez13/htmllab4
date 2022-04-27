@@ -1,0 +1,30 @@
+body {
+    background-color: black;
+}
+
+header {
+    background-color:red;
+    padding-top: 50px;
+    margin-bottom: 0px;
+    
+
+}
+
+header img {
+float: left;
+margin-top: 50px;
+
+}
+
+header h1 {
+    margin-left: 250px;
+    margin-top: 5px;
+
+    font-size: 100px;
+    
+    
+    
+}
+
+
+
