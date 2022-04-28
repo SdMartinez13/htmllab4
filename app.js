@@ -7,11 +7,11 @@ let userName = prompt("What is your name?");
 console.log(userName);
 
 
-// alert("Welcome, " + userName)
+alert("Welcome, " + userName)
 
 
 
-let userInput = prompt("Do you LOVE JavaScript?")
+let userInput = prompt(" Do you LOVE JavaScript?")
 if (userInput === 'yes') {
     alert('Sweet!!!!!')
 } else if (userInput === 'no') {
