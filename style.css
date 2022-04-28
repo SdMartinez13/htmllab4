@@ -39,12 +39,17 @@ header h1 {
     
 }
 
-section p {
-    color: beige;
+main section img {
+    padding-left: 500px;
 }
 
-section img {
-    float: inline;
+main section p {
+    margin-bottom: 200px;
+    float: left;
+}
+
+section p {
+    color: beige;
 }
 
 footer {
