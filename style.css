@@ -2,17 +2,30 @@ body {
     background-color: black;
 }
 
+head {
+    color:black;
+    float: right;
+
+}
+
+head  link {
+float: right;
+margin-right: 100px;
+}
+
 header {
     background-color:red;
-    padding-top: 50px;
-    margin-bottom: 0px;
+    padding-top: px;
+    margin-right: 0px;
+    border-color: beige;
     
 
 }
 
 header img {
 float: left;
-margin-top: 50px;
+margin-top: -20px;
+padding-top: 20px;
 
 }
 
@@ -26,5 +39,16 @@ header h1 {
     
 }
 
+section p {
+    color: beige;
+}
+
+section img {
+    float: inline;
+}
+
+footer {
+    color:red;
+}
 
 
