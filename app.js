@@ -18,10 +18,7 @@ if (userInput === 'yes') {
     alert('AWWWWWWWWW!!!!')
 } else {
     alert('thats not the answer we were looking for')
-}
-
-
-
+    
 userInput = prompt("Do you LOVE JavaScript?, Please type yes or no")
 if (userInput === 'yes') {
     alert('Sweet!!!!!')
@@ -29,5 +26,6 @@ if (userInput === 'yes') {
     alert('AWWWWWWWWW!!!!')
 } else {
     alert('thats not the answer we were looking for')
+}
 }
 
