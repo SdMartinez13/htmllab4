@@ -1,3 +1,9 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+    
 body {
     /* background-color: black; */
     background-color: #191919;
@@ -5,8 +11,6 @@ body {
 
 header {
     background-color:red;
-    padding-top: px;
-    margin-right: 0px;
     border-color: beige;
 }
 
@@ -14,16 +18,17 @@ header img {
     float: left;
     margin-top: -20px;
     padding-top: 20px;
-    max-width: 50%;
-    max-height: 50%;
+    max-width: 35%;
+    max-height: 35%;
 
 }
 
 header h1 {
-    margin-left: 250px;
-    margin-top: 5px;
-
     font-size: 100px;
+}
+
+main {
+    clear: both;
 }
 
 main section img {
