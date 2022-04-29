@@ -49,7 +49,10 @@ if (userInput === 'yes') {
     alert('Come in and take a look anyway, you might find something you like')
 } else {
     alert('thats not the answer we were looking for but welcome anyways!')
-}
+
+}  
+ 
+
 }
 
 
