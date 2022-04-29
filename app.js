@@ -11,11 +11,11 @@ alert("Welcome, " + userName)
 
 
 
-let userInput = prompt(" Do you LOVE JavaScript?")
+let userInput = prompt(" Do you LOVE Crafts?")
 if (userInput === 'yes') {
-    alert('Sweet!!!!!')
+    alert('The come on in and have a look around')
 } else if (userInput === 'no') {
-    alert('AWWWWWWWWW!!!!')
+    alert('Come in and take a look anyway, you might find something you like')
 } else {
     alert('thats not the answer we were looking for')
     
