@@ -13,17 +13,17 @@ alert("Welcome, " + userName)
 
 let userInput = prompt(" Do you LOVE Crafts?")
 if (userInput === 'yes') {
-    alert('Aewsome, come on in and have a look around')
+    alert('Awesome, come on in and have a look around')
 } else if (userInput === 'no') {
     alert('Come in and take a look anyway, you might find something you like')
 } else {
     alert('thats not the answer we were looking for')
     
-userInput = prompt("Do you LOVE JavaScript?, Please type yes or no")
+userInput = prompt("Do you LOVE Crafts?, Please type yes or no")
 if (userInput === 'yes') {
-    alert('Sweet!!!!!')
+    alert('Awesome, come on in and have a look around')
 } else if (userInput === 'no') {
-    alert('AWWWWWWWWW!!!!')
+    alert('Come in and take a look anyway, you might find something you like')
 } else {
     alert('thats not the answer we were looking for')
 }
