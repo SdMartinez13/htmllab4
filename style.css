@@ -14,17 +14,17 @@ header img {
     float: left;
     margin-top: -20px;
     padding-top: 20px;
+    max-width: 50%;
+    max-height: 50%;
 
 }
 
 header h1 {
-    margin-left: 300px;
+    margin-left: 250px;
     margin-top: 5px;
 
     font-size: 100px;
 }
-
-
 
 main section img {
     padding-left: 500px;
