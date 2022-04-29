@@ -9,9 +9,31 @@ console.log(userName);
 
 alert("Welcome, " + userName)
 
+let guesses = 3;
+for (let i =1; i <= guesses; i++){
+    let answer = prompt("what is TokaBeans favorite color?");
+    if (answer == "purple") {
+        console.log("you're correct");
+        break;
+    } else if (i < 3) {
+        alert("Try again")
+        console.log("try again");
+    } else {
+        alert("close, it is purple!")
+        console.log("close, it is purple!")
+    }
+}
+
+//let userInput1 = prompt ("What is TokaBeans favorite color?")
+//if (userInput1 === "purple") {
+//    alert("Great guess")
+//} else  {
+//    alert('try again')
+//}
 
 
-let userInput = prompt(" Do you LOVE Crafts?")
+
+let userInput = prompt(" Do you LOVE Crafts?") 
 if (userInput === 'yes') {
     alert('Awesome, come on in and have a look around')
 } else if (userInput === 'no') {
@@ -28,4 +50,5 @@ if (userInput === 'yes') {
     alert('thats not the answer we were looking for but welcome anyways!')
 }
 }
+
 
