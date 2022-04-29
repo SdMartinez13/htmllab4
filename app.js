@@ -13,7 +13,7 @@ alert("Welcome, " + userName)
 
 let userInput = prompt(" Do you LOVE Crafts?")
 if (userInput === 'yes') {
-    alert('The come on in and have a look around')
+    alert('Aewsome, come on in and have a look around')
 } else if (userInput === 'no') {
     alert('Come in and take a look anyway, you might find something you like')
 } else {
