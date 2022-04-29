@@ -9,10 +9,11 @@ console.log(userName);
 
 alert("Welcome, " + userName)
 
-let guesses = 3;
-for (let i =1; i <= guesses; i++){
+let maxGuesses = 3;
+for (let i =1; i <= maxGuesses; i++){
     let answer = prompt("what is TokaBeans favorite color?");
-    if (answer == "purple") {
+    if (answer === "purple") {
+        alert("You're correct!")
         console.log("you're correct");
         break;
     } else if (i < 3) {
