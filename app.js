@@ -25,6 +25,12 @@ for (let i =1; i <= maxGuesses; i++){
     }
 }
 
+let imageNumber = prompt("How many times you want to see TokaBeans favorite color?");
+for (let i = 0; i < imageNumber; i++){
+    document.write("<img src=\"https://www.yourelectricalsolutions.com/wp-content/uploads/2017/04/d2-placeholder-1920-300x141.png\">")
+}
+
+
 //let userInput1 = prompt ("What is TokaBeans favorite color?")
 //if (userInput1 === "purple") {
 //    alert("Great guess")
@@ -34,25 +40,25 @@ for (let i =1; i <= maxGuesses; i++){
 
 
 
-let userInput = prompt(" Do you LOVE Crafts?") 
-if (userInput === 'yes') {
-    alert('Awesome, come on in and have a look around')
-} else if (userInput === 'no') {
-    alert('Come in and take a look anyway, you might find something you like')
-} else {
-    alert('thats not the answer we were looking for')
+// let userInput = prompt(" Do you LOVE Crafts?") 
+// if (userInput === 'yes') {
+//     alert('Awesome, come on in and have a look around')
+// } else if (userInput === 'no') {
+//     alert('Come in and take a look anyway, you might find something you like')
+// } else {
+//     alert('thats not the answer we were looking for')
     
-userInput = prompt("Do you LOVE Crafts?, Please type yes or no")
-if (userInput === 'yes') {
-    alert('Awesome, come on in and have a look around')
-} else if (userInput === 'no') {
-    alert('Come in and take a look anyway, you might find something you like')
-} else {
-    alert('thats not the answer we were looking for but welcome anyways!')
+// userInput = prompt("Do you LOVE Crafts?, Please type yes or no")
+// if (userInput === 'yes') {
+//     alert('Awesome, come on in and have a look around')
+// } else if (userInput === 'no') {
+//     alert('Come in and take a look anyway, you might find something you like')
+// } else {
+//     alert('thats not the answer we were looking for but welcome anyways!')
 
-}  
+// }  
  
 
-}
+// }
 
 
